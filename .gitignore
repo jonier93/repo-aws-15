@@ -2,7 +2,7 @@
 .dotnet/
 .git/
 .local/
-.shh/
+.ssh/
 .vscode-server/
 .bash_history
 .bash_logout
