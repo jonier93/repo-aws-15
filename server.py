@@ -13,8 +13,8 @@ def register_user():
     return "User added"
      
 if __name__ == "__main__":    
-    host = "127.0.0.1"
-    port = 8000
+    host = "172.31.94.110"
+    port = "80"
     app.run(host, port, True)
 
     
