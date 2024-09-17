@@ -1,0 +1,19 @@
+h1, div {
+    text-align: center;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+div {
+    font-size: 20px;
+}

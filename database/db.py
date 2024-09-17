@@ -30,3 +30,17 @@ def insert(id, name, lastname, birthday):
     except Exception as err:
         print("Error", err)
         return None
+
+def consult(id):
+    try:
+        instruction = "SELECT * FROM users WHERE id=" + id
+        connection = connection_SQL()
+        cursor = connection.cursor()
+        cursor.execute(instruction)
+        result = cursor.fetchall()
+        return result
+    except Exception as err:
+        print("Error", err)
+        return None
+        
+        
