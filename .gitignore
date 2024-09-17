@@ -4,6 +4,7 @@
 .local/
 .ssh/
 .vscode-server/
+__pycache__/
 .bash_history
 .bash_logout
 .bash_profile
