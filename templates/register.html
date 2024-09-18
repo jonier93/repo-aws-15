@@ -9,11 +9,12 @@
 </head>
 <body>
     <h1> Register </h1>
-    <form action="/register_user" method="post">
-        <label> Id </label> <input name="id"> <br> <br>
-        <label> Name </label> <input name="name"> <br> <br>
-        <label> Lastname </label> <input name="lastname"> <br> <br>
-        <label> Birthday </label>  <input name="birthday"> <br> <br>
+    <form action="/register_user" method="post" enctype="multipart/form-data">
+        <label> Id </label> <input type="number" name="id"> <br> <br>
+        <label> Name </label> <input type="text" name="name"> <br> <br>
+        <label> Lastname </label> <input type="text" name="lastname"> <br> <br>
+        <label> Birthday </label>  <input type="date" name="birthday"> <br> <br>
+        <input type="file" name="photo"> <br> <br>
         <button> Register </button>
     </form>
 </body>
