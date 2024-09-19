@@ -28,3 +28,7 @@ def upload_file_s3(session_s3, photo_path, photo_name):
     print("Photo uploaded")
     #s3.upload_file()
 
+
+
+
+
